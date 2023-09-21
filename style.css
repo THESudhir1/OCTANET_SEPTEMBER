@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,87,1) 35%, rgba(0,189,255,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,87,1) 35%, rgba(0,189,255,1) 100%);
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 30px white;
+    border-radius: 1.5rem;
+    margin-top: 5rem;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 20px rgb(148, 148, 255);
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(232, 232, 255);
+
+}
+
+button {
+    padding: 10px 20px;
+    background: rgb(7,190,243);
+    color: rgb(1, 1, 12);
+background: linear-gradient(90deg, rgb(0, 157, 201) 30%, rgb(203, 227, 250) 100%);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: rgb(4,187,241);
+background: linear-gradient(90deg, rgba(4,187,241,1) 30%, rgba(183,255,252,1) 100%);
+    color: rgb(4, 4, 122);
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item{
+    border-bottom: 1px solid #ccc;
+}
+.dead{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.deletediv{
+    padding: 50px;
+
+}
+.cat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+select, input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: rgb(232, 232, 255);
+
+}
+
+input[type="text"]#labels {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select#priority {
+    width: 100px;
+    background-color: rgb(232, 232, 255);
+}
